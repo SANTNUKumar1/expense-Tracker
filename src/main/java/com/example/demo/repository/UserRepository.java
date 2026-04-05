@@ -10,7 +10,7 @@ import java.util.Optional;
 import com.example.demo.entity.UserInfo;
 
 @Repository
-public interface UserRepository extends CrudRepository<UserInfo, String>
+public interface UserRepository extends CrudRepository<UserInfo, Long>
 {
     public UserInfo findByUsername(String username);
 }
