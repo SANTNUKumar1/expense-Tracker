@@ -14,5 +14,6 @@ com\example\demo\auth\SecurityConfig.class
 com\example\demo\entity\UserInfo.class
 com\example\demo\controller\AuthController.class
 com\example\demo\service\CustomUserDetails.class
+com\example\demo\controller\TokenController.class
 com\example\demo\entity\UserRole.class
 com\example\demo\auth\UserConfig.class
